@@ -968,6 +968,11 @@ hr {
   background: var(--color-bg);
   border-radius: 5px;
 }
+
+.project {
+  text-decoration: none;
+}
+
 .project h3 {
   font-size: 1em;
   margin: 0.5rem 0;
@@ -982,6 +987,7 @@ hr {
   font-size: 0.8em;
   text-align: left;
   line-height: 1.5;
+  height: 2.5rem;
   margin: 0;
 }
 
