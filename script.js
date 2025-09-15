@@ -27,6 +27,9 @@ const nodejs = document.querySelector("#nodejs-text");
 const aboutMeButton = document.querySelector("#about-me-button");
 const cvButton = document.querySelector("#cv-button");
 
+const contactForm = document.querySelector("#contact-form");
+const messageSent = document.querySelector("#message-sent");
+
 cvButton.addEventListener("click", () => {
   window.open("src/Brian_Alvernas.pdf", "_blank");
 });
@@ -40,6 +43,22 @@ onload = () => {
 
 aboutMeButton.addEventListener("click", () => {
   pageupdate(aboutMe, buttonAboutMe);
+});
+
+/* Function email contact form */
+contactForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.log("Enviando formulario...", contactForm);
+
+  emailjs.sendForm("service_mydr42v", "template_24gtmju", contactForm).then(
+    () => {
+      messageSent.style.display = "flex";
+      contactForm.reset();
+    },
+    (error) => {
+      alert("Error al enviar el mensaje. Inténtalo de nuevo.");
+    }
+  );
 });
 
 /* Funcion de skills */

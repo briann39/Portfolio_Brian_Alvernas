@@ -12,6 +12,7 @@
     />
   </head>
   <body>
+    <!-- Contenedor del perfil -->
     <div data-aos-delay="500" data-aos="fade-right" class="perfil-box">
       <div class="perfil">
         <div class="perfil-img-box">
@@ -22,8 +23,8 @@
           <p>Software Engineer</p>
         </div>
       </div>
-      <hr class="perfil-divider" />
       <div class="contact-box">
+        <hr class="perfil-divider hrone" />
         <ul class="contact">
           <li class="item-contact">
             <div class="icon-box">
@@ -177,32 +178,51 @@
         </div>
         <hr class="line-decoration" />
         <div id="html-text" class="skills-info">
-          <img src="src/icons/skillscode/html.svg" alt="" />
+          <img
+            src="src/icons/skillscode/html.svg"
+            class="img-skill-pc"
+            alt=""
+          />
+
           <div class="skills-bar">
-            <div class="skill-header">
-              <h3>HTML</h3>
-              <div>
-                <p>Advanced</p>
-                <span class="skill-level">90%</span>
+            <img
+              class="img-skill-mobile"
+              src="src/icons/skillscode/html.svg"
+              alt=""
+            />
+            <div class="skills-details">
+              <div class="skill-header">
+                <h3>HTML</h3>
+                <div>
+                  <p>Advanced</p>
+                  <span class="skill-level">90%</span>
+                </div>
               </div>
+              <progress value="90" max="100"></progress>
             </div>
-            <progress value="90" max="100"></progress>
           </div>
           <div class="skill-text">
             Full command of HTML, including semantic tags and forms.
           </div>
         </div>
         <div id="css-text" class="skills-info skill-active">
-          <img src="src/icons/skillscode/css.svg" alt="" />
+          <img src="src/icons/skillscode/css.svg" alt="" class="img-skill-pc" />
           <div class="skills-bar">
-            <div class="skill-header">
-              <h3>CSS</h3>
-              <div>
-                <p>Advanced</p>
-                <span class="skill-level">90%</span>
+            <img
+              src="src/icons/skillscode/css.svg"
+              alt=""
+              class="img-skill-mobile"
+            />
+            <div class="skills-details">
+              <div class="skill-header">
+                <h3>CSS</h3>
+                <div>
+                  <p>Advanced</p>
+                  <span class="skill-level">90%</span>
+                </div>
               </div>
+              <progress value="90" max="100"></progress>
             </div>
-            <progress value="90" max="100"></progress>
           </div>
           <div class="skill-text">
             Full command of CSS, including flexbox and grid, as well as
@@ -214,49 +234,81 @@
             style="border-radius: 0.5rem"
             src="src/icons/skillscode/javascript.svg"
             alt=""
+            class="img-skill-pc"
           />
           <div class="skills-bar">
-            <div class="skill-header">
-              <h3>JavaScript</h3>
-              <div>
-                <p>Advanced</p>
-                <span class="skill-level">75%</span>
+            <img
+              style="border-radius: 0.5rem"
+              src="src/icons/skillscode/javascript.svg"
+              alt=""
+              class="img-skill-mobile"
+            />
+            <div class="skills-details">
+              <div class="skill-header">
+                <h3>JavaScript</h3>
+                <div>
+                  <p>Advanced</p>
+                  <span class="skill-level">75%</span>
+                </div>
               </div>
+              <progress value="75" max="100"></progress>
             </div>
-            <progress value="75" max="100"></progress>
           </div>
+
           <div class="skill-text">
             Full command of JavaScript, including ES6, asynchrony, and DOM
             manipulation.
           </div>
         </div>
         <div id="react-text" class="skills-info">
-          <img src="src/icons/skillscode/react.svg" alt="" />
+          <img
+            src="src/icons/skillscode/react.svg"
+            alt=""
+            class="img-skill-pc"
+          />
           <div class="skills-bar">
-            <div class="skill-header">
-              <h3>React</h3>
-              <div>
-                <p>Intermediate</p>
-                <span class="skill-level">60%</span>
+            <img
+              src="src/icons/skillscode/react.svg"
+              alt=""
+              class="img-skill-mobile"
+            />
+            <div class="skills-details">
+              <div class="skill-header">
+                <h3>React</h3>
+                <div>
+                  <p>Intermediate</p>
+                  <span class="skill-level">60%</span>
+                </div>
               </div>
+              <progress value="60" max="100"></progress>
             </div>
-            <progress value="60" max="100"></progress>
           </div>
           <div class="skill-text">
             Full command of React, including hooks, state, and props.
           </div>
         </div>
         <div id="nodejs-text" class="skills-info">
-          <img src="src/icons/skillscode/nodejs.svg" alt="" />
+          <img
+            src="src/icons/skillscode/nodejs.svg"
+            alt=""
+            class="img-skill-pc"
+          />
           <div class="skills-bar">
-            <div class="skill-header">
-              <h3>Node.js</h3>
-              <div>
-                <p>Intermediate</p>
-                <span class="skill-level">40%</span>
+            <img
+              src="src/icons/skillscode/nodejs.svg"
+              alt=""
+              class="img-skill-mobile"
+            />
+            <div class="skills-details">
+              <div class="skill-header">
+                <h3>Node.js</h3>
+                <div>
+                  <p>Intermediate</p>
+                  <span class="skill-level">40%</span>
+                </div>
               </div>
+              <progress value="40" max="100"></progress>
             </div>
-            <progress value="40" max="100"></progress>
           </div>
           <div class="skill-text">
             Full command of Node.js, including Express, middlewares, and routes.
@@ -352,24 +404,50 @@
         <div class="contact-info">
           <div class="contact-form">
             <h4>Contact</h4>
-            <form>
+            <form id="contact-form">
               <div class="input-group">
                 <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Your name" />
+                <input
+                  name="name"
+                  type="text"
+                  id="name"
+                  placeholder="Your name"
+                  required
+                />
               </div>
               <div class="input-group">
                 <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Your email" />
+                <input
+                  name="email"
+                  type="email"
+                  id="email"
+                  placeholder="Your email"
+                  required
+                />
               </div>
               <div class="input-group">
                 <label for="subject">Subject:</label>
-                <input type="text" id="subject" placeholder="Your subject" />
+                <input
+                  name="subject"
+                  type="text"
+                  id="subject"
+                  placeholder="Your subject"
+                  required
+                />
               </div>
               <div class="input-group">
                 <label for="message">Message:</label>
-                <textarea id="message" placeholder="Your message"></textarea>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Your message"
+                  required
+                ></textarea>
               </div>
-              <button type="submit">Send</button>
+              <div class="send-group">
+                <button type="submit" value="send">Send</button>
+                <div id="message-sent">Message sent</div>
+              </div>
             </form>
           </div>
           <div class="contact-social">
@@ -468,10 +546,22 @@
         <i class="fa-solid fa-diagram-project"></i>
       </button>
     </div>
-    <script src="script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init({
+          publicKey: "Q7ymhnG958uTojCki",
+        });
+      })();
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+    <script src="script.js"></script>
   </body>
 </html>

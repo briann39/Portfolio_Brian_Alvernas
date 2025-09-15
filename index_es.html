@@ -355,24 +355,50 @@
         <div class="contact-info">
           <div class="contact-form">
             <h4>Contacto</h4>
-            <form>
+            <form id="contact-form">
               <div class="input-group">
                 <label for="name">Nombre:</label>
-                <input type="text" id="name" placeholder="Tu nombre" />
+                <input
+                  name="name"
+                  type="text"
+                  id="name"
+                  placeholder="Tu nombre"
+                  required
+                />
               </div>
               <div class="input-group">
                 <label for="email">Correo:</label>
-                <input type="email" id="email" placeholder="Tu correo" />
+                <input
+                  name="email"
+                  type="email"
+                  id="email"
+                  placeholder="Tu correo"
+                  required
+                />
               </div>
               <div class="input-group">
                 <label for="subject">Asunto:</label>
-                <input type="text" id="subject" placeholder="Tu asunto" />
+                <input
+                  name="subject"
+                  type="text"
+                  id="subject"
+                  placeholder="Tu asunto"
+                  required
+                />
               </div>
               <div class="input-group">
                 <label for="message">Mensaje:</label>
-                <textarea id="message" placeholder="Tu mensaje"></textarea>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Tu mensaje"
+                  required
+                ></textarea>
               </div>
-              <button type="submit">Enviar</button>
+              <div class="send-group">
+                <button type="submit" value="send">Enviar</button>
+                <div id="message-sent">Mensaje enviado</div>
+              </div>
             </form>
           </div>
           <div class="contact-social">
@@ -471,10 +497,22 @@
         <i class="fa-solid fa-diagram-project"></i>
       </button>
     </div>
-    <script src="script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init({
+          publicKey: "Q7ymhnG958uTojCki",
+        });
+      })();
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+    <script src="script.js"></script>
   </body>
 </html>
