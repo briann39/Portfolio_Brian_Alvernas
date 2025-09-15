@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brian Alvernas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div data-aos-delay="500" data-aos="fade-right" class="perfil-box">
+      <div class="perfil">
+        <div class="perfil-img-box">
+          <img src="src/stickers/perfil.png" alt="" />
+        </div>
+        <div class="perfil-text">
+          <h2>Brian Alvernas</h2>
+          <p>Software Engineer</p>
+        </div>
+      </div>
+      <hr class="perfil-divider" />
+      <div class="contact-box">
+        <ul class="contact">
+          <li class="item-contact">
+            <div class="icon-box">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="item-contact-info">
+              <h3>Email</h3>
+              <p>brianalvernas8@gmail.com</p>
+            </div>
+          </li>
+          <li class="item-contact">
+            <div class="icon-box">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <div class="item-contact-info">
+              <h3>Phone</h3>
+              <p>(+598) 99 592 441</p>
+            </div>
+          </li>
+          <li class="item-contact">
+            <div class="icon-box">
+              <i class="fa-solid fa-location-pin"></i>
+            </div>
+            <div class="item-contact-info">
+              <h3>Location</h3>
+              <p>Canelones, UY</p>
+            </div>
+          </li>
+        </ul>
+        <hr class="perfil-divider" />
+        <div class="social-media-buttons">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="section-box">
+      <!-- Home Section -->
+      <div id="home" class="section-home">
+        <h1>Hello, I'm Brian!</h1>
+        <hr class="line-decoration" />
+        <p>
+          Welcome to my personal website! I'm a software engineer with a passion
+          for creating innovative solutions and exploring new technologies.
+          Here, you'll find information about my projects, skills, and
+          experiences. Feel free to browse around and get in touch if you'd like
+          to connect!
+        </p>
+        <div class="buttons-box">
+          <button id="about-me-button" class="button-about">ABOUT ME</button>
+          <button id="cv-button" class="button-cv learn-more">
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">Download CV</span>
+          </button>
+        </div>
+        <img class="look-image" src="src/stickers/look.png" alt="" />
+      </div>
+
+      <!-- About Me Section -->
+      <div id="about-me" class="section-aboutme">
+        <div class="about-me-text">
+          <h2>About Me</h2>
+          <hr class="line-decoration" />
+          <p>
+            Since I was little, I've been fascinated by technology and always
+            wanted to understand how computers and electronic devices work. That
+            curiosity led me to become interested in programming and create my
+            own projects.
+          </p>
+
+          <p>
+            I work with <strong>HTML, CSS, and React</strong> on the frontend,
+            and with <strong>Node.js and Express</strong> on the backend, in
+            addition to handling <strong>APIs</strong>. I enjoy transforming
+            ideas into functional and visually appealing applications.
+          </p>
+
+          <p>
+            I consider myself organized, adaptable, and a fast learner. In my
+            free time, I enjoy
+            <strong
+              >playing video games, going out, and spending time with
+              friends</strong
+            >, maintaining a good balance between work and fun.
+          </p>
+          <blockquote>
+            “Passionate about technology and continuous learning.”
+          </blockquote>
+        </div>
+        <div class="services">
+          <h2>what i do</h2>
+          <div class="services-cards">
+            <div class="services-card">
+              <div class="services-icon">
+                <img src="src/icons/web-development.svg" alt="" />
+              </div>
+              <div class="services-text">
+                <h2>Web Development</h2>
+                <p>
+                  Development of professional, aesthetic, and responsive
+                  websites
+                </p>
+              </div>
+            </div>
+            <div class="services-card">
+              <div class="services-icon">
+                <img src="src/icons/backend.svg" alt="" />
+              </div>
+              <div class="services-text">
+                <h2>Backend Development</h2>
+                <p>
+                  Development of APIs and backend services using Node.js and
+                  Express.
+                </p>
+              </div>
+            </div>
+            <div class="services-card">
+              <div class="services-icon">
+                <img src="src/icons/fullstack.svg" alt="" />
+              </div>
+              <div class="services-text">
+                <h2>Full Stack Development</h2>
+                <p>
+                  Development of complete web applications, from frontend to
+                  backend.
+                </p>
+              </div>
+            </div>
+            <div class="services-card">
+              <div class="services-icon">
+                <img src="src/icons/design.svg" alt="" />
+              </div>
+              <div class="services-text">
+                <h2>UI/UX Design</h2>
+                <p>
+                  Design of attractive user interfaces and intuitive user
+                  experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Section -->
+      <div id="skills" class="section-skills">
+        <div class="skills-title">
+          <h2>Skills</h2>
+        </div>
+        <hr class="line-decoration" />
+        <div id="html-text" class="skills-info">
+          <img src="src/icons/skillscode/html.svg" alt="" />
+          <div class="skills-bar">
+            <div class="skill-header">
+              <h3>HTML</h3>
+
+              <div>
+                <p>Advanced</p>
+                <span class="skill-level">90%</span>
+              </div>
+            </div>
+            <progress value="90" max="100"></progress>
+          </div>
+          <div class="skill-text">
+            Full command of HTML, including semantic tags and forms.
+          </div>
+        </div>
+        <div id="css-text" class="skills-info skill-active">
+          <img src="src/icons/skillscode/css.svg" alt="" />
+          <div class="skills-bar">
+            <div class="skill-header">
+              <h3>CSS</h3>
+
+              <div>
+                <p>Advanced</p>
+                <span class="skill-level">90%</span>
+              </div>
+            </div>
+            <progress value="90" max="100"></progress>
+          </div>
+          <div class="skill-text">
+            Full command of CSS, including flexbox and grid, as well as
+            animations, transitions, pseudo-classes, and media queries.
+          </div>
+        </div>
+        <div id="javascript-text" class="skills-info">
+          <img
+            style="border-radius: 0.5rem"
+            src="src/icons/skillscode/javascript.svg"
+            alt=""
+          />
+          <div class="skills-bar">
+            <div class="skill-header">
+              <h3>javascript</h3>
+
+              <div>
+                <p>Advanced</p>
+                <span class="skill-level">75%</span>
+              </div>
+            </div>
+            <progress value="75" max="100"></progress>
+          </div>
+          <div class="skill-text">
+            Full command of JavaScript, including ES6, asynchrony, and DOM
+            manipulation.
+          </div>
+        </div>
+        <div id="react-text" class="skills-info">
+          <img src="src/icons/skillscode/react.svg" alt="" />
+          <div class="skills-bar">
+            <div class="skill-header">
+              <h3>React</h3>
+
+              <div>
+                <p>Intermediate</p>
+                <span class="skill-level">60%</span>
+              </div>
+            </div>
+            <progress value="60" max="100"></progress>
+          </div>
+          <div class="skill-text">
+            Full command of React, including hooks, state, and props.
+          </div>
+        </div>
+        <div id="nodejs-text" class="skills-info">
+          <img src="src/icons/skillscode/nodejs.svg" alt="" />
+          <div class="skills-bar">
+            <div class="skill-header">
+              <h3>Node.js</h3>
+
+              <div>
+                <p>Intermediate</p>
+                <span class="skill-level">40%</span>
+              </div>
+            </div>
+            <progress value="40" max="100"></progress>
+          </div>
+          <div class="skill-text">
+            Full command of Node.js, including Express, middlewares, and routes.
+          </div>
+        </div>
+        <div class="skills-list">
+          <button id="html" class="skill-code">
+            <img src="src/icons/skillscode/html.svg" alt="" />
+          </button>
+          <button id="css" class="skill-code">
+            <img src="src/icons/skillscode/css.svg" alt="" />
+          </button>
+          <button id="javascript" class="skill-code">
+            <img
+              style="border-radius: 0.25rem"
+              src="src/icons/skillscode/javascript.svg"
+              alt=""
+            />
+          </button>
+          <button id="react" class="skill-code">
+            <img src="src/icons/skillscode/react.svg" alt="" />
+          </button>
+          <button id="nodejs" class="skill-code">
+            <img src="src/icons/skillscode/nodejs.svg" alt="" />
+          </button>
+        </div>
+        <hr />
+        <div class="soft-skills">
+          <h2>Soft Skills</h2>
+          <div class="soft-skills-list">
+            <p>
+              <span style="border: 1px solid rgb(18, 88, 83)"
+                >#Problem solving</span
+              >
+              <span style="border: 1px solid rgb(104, 25, 14)">#Teamwork</span>
+              <span style="border: 1px solid rgb(11, 78, 8)"
+                >#Self-taught and fast learning</span
+              >
+              <span style="border: 1px solid rgb(48, 49, 119)"
+                >#Logical and analytical thinking</span
+              >
+              <span style="border: 1px solid rgb(78, 11, 70)"
+                >#Creativity in solution design</span
+              >
+              <span style="border: 1px solid rgb(98, 109, 4)"
+                >#Organization and time management</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects Section -->
+      <div id="projects" class="section-projects">
+        <h2>Projects</h2>
+        <hr class="line-decoration" />
+        <p>Here you can see some of my most outstanding projects.</p>
+        <div class="projects-cards-container">
+          <div class="project">
+            <div class="projects-cards">
+              <img src="src/icons/project1.png" alt="" />
+            </div>
+            <div class="projects-info">
+              <h3>LandingPage | LEGALIA</h3>
+              <p>Landing page for a law firm.</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="projects-cards">
+              <img src="src/icons/project1.png" alt="" />
+            </div>
+            <div class="projects-info">
+              <h3>LandingPage | LEGALIA</h3>
+              <p>Landing page for a law firm.</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="projects-cards">
+              <img src="src/icons/project1.png" alt="" />
+            </div>
+            <div class="projects-info">
+              <h3>LandingPage | LEGALIA</h3>
+              <p>Landing page for a law firm.</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="projects-cards">
+              <img src="src/icons/project1.png" alt="" />
+            </div>
+            <div class="projects-info">
+              <h3>LandingPage | LEGALIA</h3>
+              <p>Landing page for a law firm.</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="projects-cards">
+              <img src="src/icons/project1.png" alt="" />
+            </div>
+            <div class="projects-info">
+              <h3>LandingPage | LEGALIA</h3>
+              <p>Landing page for a law firm.</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="projects-cards">
+              <img src="src/icons/project1.png" alt="" />
+            </div>
+            <div class="projects-info">
+              <h3>LandingPage | LEGALIA</h3>
+              <p>Landing page for a law firm.</p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="projects-cards">
+              <img src="src/icons/project1.png" alt="" />
+            </div>
+            <div class="projects-info">
+              <h3>LandingPage | LEGALIA</h3>
+              <p>Landing page for a law firm.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div id="contact" class="section-contact">
+        <h2>Contact</h2>
+        <hr class="line-decoration" />
+        <div class="contact-info">
+          <div class="contact-form">
+            <h4>Contact me</h4>
+            <form>
+              <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your name" />
+              </div>
+              <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your email" />
+              </div>
+              <div class="input-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" placeholder="Your subject" />
+              </div>
+              <div class="input-group">
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Your message"></textarea>
+              </div>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          <div class="contact-social">
+            <p>
+              Or if you prefer, you can also contact me through my social
+              networks:
+            </p>
+            <div class="contact-buttons">
+              <a href="https://www.instagram.com/briannn.153/">
+                <img
+                  src="src/icons/icons-socials/instagram.svg"
+                  alt="Instagram"
+                />
+              </a>
+              <a href="https://github.com/briann39">
+                <img
+                  style="filter: brightness(500%)"
+                  src="src/icons/icons-socials/github.png"
+                  alt="GitHub"
+                />
+              </a>
+              <a href="https://twitter.com/briann39">
+                <img src="src/icons/icons-socials/twitter.png" alt="Twitter" />
+              </a>
+              <a href="https://www.facebook.com/BMAM123/">
+                <img
+                  src="src/icons/icons-socials/facebook.png"
+                  alt="Facebook"
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/brian-alvernas-395874374/">
+                <img
+                  src="src/icons/icons-socials/linkedin.png"
+                  alt="LinkedIn"
+                />
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=59899592441">
+                <img
+                  src="src/icons/icons-socials/whatsapp.webp"
+                  alt="WhatsApp"
+                />
+              </a>
+              <a href="https://telegram.org/">
+                <img
+                  src="src/icons/icons-socials/telegram.png"
+                  alt="Telegram"
+                />
+              </a>
+              <a href="https://www.tiktok.com/">
+                <img src="src/icons/icons-socials/tiktok.png" alt="Tiktok" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-lateral">
+      <button
+        data-aos="fade-left"
+        data-aos-delay="500"
+        id="btn-home"
+        class="button button-active"
+      >
+        <i class="fa-solid fa-house"></i>
+      </button>
+      <button
+        data-aos="fade-left"
+        data-aos-delay="600"
+        id="btn-about-me"
+        class="button"
+      >
+        <i class="fa-solid fa-address-card"></i>
+      </button>
+      <button
+        data-aos="fade-left"
+        data-aos-delay="700"
+        id="btn-skills"
+        class="button"
+      >
+        <i class="fas fa-tools"></i>
+      </button>
+      <button
+        data-aos="fade-left"
+        data-aos-delay="800"
+        id="btn-projects"
+        class="button"
+      >
+        <i class="fas fa-folder-open"></i>
+      </button>
+      <button
+        data-aos="fade-left"
+        data-aos-delay="900"
+        id="btn-contact"
+        class="button"
+      >
+        <i class="fa-solid fa-diagram-project"></i>
+      </button>
+      <!-- Button secundary (oculto)
+      <button
+        data-aos="fade-left"
+        data-aos-delay="1000"
+        class="button button-secondary"
+      >
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+      -->
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
