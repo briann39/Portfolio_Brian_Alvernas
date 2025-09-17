@@ -1,39 +1,76 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="src/favicon/favicon-32x32.png" />
+
+    <!-- Título -->
     <title>Brian Alvernas</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- Estilos y fuentes -->
+
+    <!-- Styles General-->
+    <link rel="stylesheet" href="/styles/general_style.css" />
+
+    <!-- Animation on scroll library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
   </head>
+
+  <!--  Pagina en ingles  -->
+
   <body>
+    <!-- Contenedor del perfil -->
     <div data-aos-delay="500" data-aos="fade-right" class="perfil-box">
+      <!-- Perfil personal -->
+
+      <!-- Perfil -->
       <div class="perfil">
+        <!-- Imagen de perfil -->
         <div class="perfil-img-box">
           <img src="src/stickers/perfil.png" alt="" />
         </div>
+        <!-- Texto de perfil -->
         <div class="perfil-text">
+          <!-- Nombre y profesión -->
           <h2>Brian Alvernas</h2>
-          <p>Ingeniero de Software</p>
+
+          <!-- Profesión -->
+          <p>Ingeniero de software</p>
         </div>
       </div>
-      <hr class="perfil-divider" />
+
+      <!-- Información de contacto y redes sociales -->
       <div class="contact-box">
+        <!-- Divider -->
+        <hr class="perfil-divider hrone" />
+
+        <!-- Información de contacto -->
         <ul class="contact">
+          <!-- Items de contacto -->
+
+          <!-- Email -->
           <li class="item-contact">
             <div class="icon-box">
               <i class="fa-solid fa-envelope"></i>
             </div>
             <div class="item-contact-info">
-              <h3>Email</h3>
+              <h3>Correo</h3>
               <p>brianalvernas8@gmail.com</p>
             </div>
           </li>
+
+          <!-- Phone -->
           <li class="item-contact">
             <div class="icon-box">
               <i class="fa-solid fa-mobile-screen-button"></i>
@@ -43,6 +80,8 @@
               <p>(+598) 99 592 441</p>
             </div>
           </li>
+
+          <!-- Location -->
           <li class="item-contact">
             <div class="icon-box">
               <i class="fa-solid fa-location-pin"></i>
@@ -53,20 +92,52 @@
             </div>
           </li>
         </ul>
+
+        <!-- Divider -->
         <hr class="perfil-divider" />
+
+        <!-- Redes sociales -->
         <div class="social-media-buttons">
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <!-- Iconos de redes sociales -->
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/brian-alvernas-395874374/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/briann39"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a href="https://twitter.com/briann39"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/BMAM123/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
         </div>
       </div>
     </div>
+
+    <!-- Contenedor de secciones -->
     <div class="section-box">
+      <!-- Inicio de Secciónes-->
+
       <!-- Home Section -->
       <div id="home" class="section-home">
+        <!-- Contenido de la sección de inicio -->
+
+        <!-- Bienvenida a la pagina -->
         <h1>¡Hola, soy Brian!</h1>
+
+        <!-- linea decorativa -->
         <hr class="line-decoration" />
+
+        <!-- Descripción breve -->
         <p>
           ¡Bienvenido a mi sitio personal! Soy un ingeniero de software
           apasionado por crear soluciones innovadoras y explorar nuevas
@@ -74,35 +145,53 @@
           habilidades y experiencias. ¡No dudes en navegar y contactarme si
           quieres conectar!
         </p>
+
+        <!-- Botones de acción -->
         <div class="buttons-box">
+          <!-- Botones para ir a about-me -->
           <button id="about-me-button" class="button-about">SOBRE MÍ</button>
+
+          <!-- Botón para descargar CV -->
           <button id="cv-button" class="button-cv learn-more">
+            <!-- Icono de flecha decorativa -->
             <span class="circle" aria-hidden="true">
               <span class="icon arrow"></span>
             </span>
             <span class="button-text">Descargar CV</span>
           </button>
         </div>
+
+        <!-- Imagen decorativa -->
         <img class="look-image" src="src/stickers/look.png" alt="" />
       </div>
 
       <!-- About Me Section -->
       <div id="about-me" class="section-aboutme">
+        <!-- Texto de presentación y servicios -->
         <div class="about-me-text">
+          <!-- Titulo de la sseccion (Sobre mi)-->
           <h2>Sobre mí</h2>
+
+          <!-- linea decorativa -->
           <hr class="line-decoration" />
+
+          <!-- Texto de presentación -->
           <p>
             Desde pequeño me fascinó la tecnología y siempre quise entender cómo
             funcionaban las computadoras y dispositivos electrónicos. Esa
             curiosidad me llevó a interesarme por la programación y a crear mis
             propios proyectos.
           </p>
+
+          <!-- Segundo parrafo (Tecnologías) -->
           <p>
             Trabajo con <strong>HTML, CSS y React</strong> en el frontend, y con
             <strong>Node.js y Express</strong> en el backend, además de manejar
             <strong>APIs</strong>. Me gusta transformar ideas en aplicaciones
             funcionales y visualmente atractivas.
           </p>
+
+          <!-- Tercer parrafo (Habilidades blandas) -->
           <p>
             Me considero organizado, adaptable y aprendo rápido. En mi tiempo
             libre disfruto
@@ -110,29 +199,45 @@
               >jugando videojuegos, saliendo y pasando tiempo con amigos</strong
             >, manteniendo un buen equilibrio entre trabajo y diversión.
           </p>
+
+          <!-- Frase destacada -->
           <blockquote>
             “Apasionado por la tecnología y el aprendizaje continuo.”
           </blockquote>
         </div>
+
+        <!-- Servicios que ofrezco -->
         <div class="services">
+          <!-- Titulo de la seccion (Servicios) -->
           <h2>Lo que hago</h2>
+
+          <!-- Cards de servicios -->
           <div class="services-cards">
+            <!-- Card de servicio 1 (Desarrollo Web) -->
             <div class="services-card">
+              <!-- Icono de servicio -->
               <div class="services-icon">
                 <img src="src/icons/web-development.svg" alt="" />
               </div>
+
+              <!-- Texto de servicio -->
               <div class="services-text">
                 <h2>Desarrollo Web</h2>
                 <p>
                   Desarrollo de sitios webs profesionales, estéticos y
-                  responsivos
+                  responsivos.
                 </p>
               </div>
             </div>
+
+            <!-- Card de servicio 2 (Desarrollo Backend) -->
             <div class="services-card">
+              <!-- Icono de servicio -->
               <div class="services-icon">
                 <img src="src/icons/backend.svg" alt="" />
               </div>
+
+              <!-- Texto de servicio -->
               <div class="services-text">
                 <h2>Desarrollo Backend</h2>
                 <p>
@@ -141,10 +246,15 @@
                 </p>
               </div>
             </div>
+
+            <!-- Card de servicio 3 (Desarrollo Full Stack) -->
             <div class="services-card">
+              <!-- Icono de servicio -->
               <div class="services-icon">
                 <img src="src/icons/fullstack.svg" alt="" />
               </div>
+
+              <!-- Texto de servicio -->
               <div class="services-text">
                 <h2>Desarrollo Full Stack</h2>
                 <p>
@@ -153,10 +263,15 @@
                 </p>
               </div>
             </div>
+
+            <!-- Card de servicio 4 (Diseño UI/UX) -->
             <div class="services-card">
+              <!-- Icono de servicio -->
               <div class="services-icon">
                 <img src="src/icons/design.svg" alt="" />
               </div>
+
+              <!-- Texto de servicio -->
               <div class="services-text">
                 <h2>Diseño UI/UX</h2>
                 <p>
@@ -171,105 +286,236 @@
 
       <!-- Skills Section -->
       <div id="skills" class="section-skills">
+        <!-- Habilidades técnicas y blandas -->
+
+        <!-- Titulo de la seccion (Habilidades) -->
         <div class="skills-title">
           <h2>Habilidades</h2>
         </div>
+
+        <!-- linea decorativa -->
         <hr class="line-decoration" />
+
+        <!-- inicio Habilidades técnicas -->
+
+        <!-- html -->
+
         <div id="html-text" class="skills-info">
-          <img src="src/icons/skillscode/html.svg" alt="" />
+          <!-- HTML -->
+
+          <!-- Icono de habilidad (PC)-->
+          <img
+            src="src/icons/skillscode/html.svg"
+            class="img-skill-pc"
+            alt=""
+          />
+          <!-- Detalles de la habilidad -->
           <div class="skills-bar">
-            <div class="skill-header">
-              <h3>HTML</h3>
-              <div>
-                <p>Avanzado</p>
-                <span class="skill-level">90%</span>
+            <!-- Icono de habilidad (Móvil)-->
+            <img
+              class="img-skill-mobile"
+              src="src/icons/skillscode/html.svg"
+              alt=""
+            />
+
+            <!-- Detalles de la habilidad -->
+            <div class="skills-details">
+              <!-- Encabezado de la habilidad -->
+              <div class="skill-header">
+                <h3>HTML</h3>
+                <div>
+                  <p>Avanzado</p>
+                  <span class="skill-level">90%</span>
+                </div>
               </div>
+              <!-- Barra de progreso -->
+              <progress value="90" max="100"></progress>
             </div>
-            <progress value="90" max="100"></progress>
           </div>
+
+          <!-- Descripción de la habilidad -->
           <div class="skill-text">
             Manejo totalmente de html, incluyendo etiquetas semánticas y
             formularios.
           </div>
         </div>
+
+        <!-- css -->
         <div id="css-text" class="skills-info skill-active">
-          <img src="src/icons/skillscode/css.svg" alt="" />
+          <!-- Icono de habilidad (PC)-->
+          <img src="src/icons/skillscode/css.svg" alt="" class="img-skill-pc" />
+
+          <!-- Detalles de la habilidad -->
           <div class="skills-bar">
-            <div class="skill-header">
-              <h3>CSS</h3>
-              <div>
-                <p>Avanzado</p>
-                <span class="skill-level">90%</span>
+            <!-- Icono de habilidad (Móvil)-->
+            <img
+              src="src/icons/skillscode/css.svg"
+              alt=""
+              class="img-skill-mobile"
+            />
+
+            <!-- Detalles de la habilidad -->
+            <div class="skills-details">
+              <!-- Encabezado de la habilidad -->
+              <div class="skill-header">
+                <h3>CSS</h3>
+                <div>
+                  <p>Avanzado</p>
+                  <span class="skill-level">90%</span>
+                </div>
               </div>
+              <!-- Barra de progreso -->
+              <progress value="90" max="100"></progress>
             </div>
-            <progress value="90" max="100"></progress>
           </div>
+
+          <!-- Descripción de la habilidad -->
           <div class="skill-text">
             Manejo totalmente de css, incluyendo flexbox y grid, además de
             animaciones, transiciones, pseudo clases y media queries.
           </div>
         </div>
+
+        <!-- javascript -->
         <div id="javascript-text" class="skills-info">
+          <!-- Icono de habilidad (PC)-->
           <img
             style="border-radius: 0.5rem"
             src="src/icons/skillscode/javascript.svg"
             alt=""
+            class="img-skill-pc"
           />
+          <!-- Detalles de la habilidad -->
           <div class="skills-bar">
-            <div class="skill-header">
-              <h3>JavaScript</h3>
-              <div>
-                <p>Avanzado</p>
-                <span class="skill-level">75%</span>
+            <!-- Icono de habilidad (Móvil)-->
+            <img
+              style="border-radius: 0.5rem"
+              src="src/icons/skillscode/javascript.svg"
+              alt=""
+              class="img-skill-mobile"
+            />
+
+            <!-- Detalles de la habilidad -->
+            <div class="skills-details">
+              <!-- Encabezado de la habilidad -->
+              <div class="skill-header">
+                <h3>JavaScript</h3>
+                <div>
+                  <p>Avanzado</p>
+                  <span class="skill-level">75%</span>
+                </div>
               </div>
+              <!-- Barra de progreso -->
+              <progress value="75" max="100"></progress>
             </div>
-            <progress value="75" max="100"></progress>
           </div>
+
+          <!-- Descripción de la habilidad -->
           <div class="skill-text">
             Manejo totalmente de javascript, incluyendo ES6, asincronía y
             manipulación del DOM.
           </div>
         </div>
+
+        <!-- react -->
         <div id="react-text" class="skills-info">
-          <img src="src/icons/skillscode/react.svg" alt="" />
+          <!-- Icono de habilidad (PC)-->
+          <img
+            src="src/icons/skillscode/react.svg"
+            alt=""
+            class="img-skill-pc"
+          />
+
+          <!-- Detalles de la habilidad -->
           <div class="skills-bar">
-            <div class="skill-header">
-              <h3>React</h3>
-              <div>
-                <p>Intermedio</p>
-                <span class="skill-level">60%</span>
+            <!-- Icono de habilidad (Móvil)-->
+            <img
+              src="src/icons/skillscode/react.svg"
+              alt=""
+              class="img-skill-mobile"
+            />
+            <!-- Detalles de la habilidad -->
+            <div class="skills-details">
+              <!-- Encabezado de la habilidad -->
+              <div class="skill-header">
+                <h3>React</h3>
+                <div>
+                  <p>Intermedio</p>
+                  <span class="skill-level">60%</span>
+                </div>
               </div>
+
+              <!-- Barra de progreso -->
+              <progress value="60" max="100"></progress>
             </div>
-            <progress value="60" max="100"></progress>
           </div>
+
+          <!-- Descripción de la habilidad -->
           <div class="skill-text">
             Manejo totalmente de react, incluyendo hooks, estado y props.
           </div>
         </div>
+
+        <!-- nodejs -->
         <div id="nodejs-text" class="skills-info">
-          <img src="src/icons/skillscode/nodejs.svg" alt="" />
+          <!-- Icono de habilidad (PC)-->
+          <img
+            src="src/icons/skillscode/nodejs.svg"
+            alt=""
+            class="img-skill-pc"
+          />
+
+          <!-- Detalles de la habilidad -->
           <div class="skills-bar">
-            <div class="skill-header">
-              <h3>Node.js</h3>
-              <div>
-                <p>Intermedio</p>
-                <span class="skill-level">40%</span>
+            <!-- Icono de habilidad (Móvil)-->
+            <img
+              src="src/icons/skillscode/nodejs.svg"
+              alt=""
+              class="img-skill-mobile"
+            />
+
+            <!-- Detalles de la habilidad -->
+            <div class="skills-details">
+              <!-- Encabezado de la habilidad -->
+              <div class="skill-header">
+                <h3>Node.js</h3>
+                <div>
+                  <p>Intermedio</p>
+                  <span class="skill-level">40%</span>
+                </div>
               </div>
+
+              <!-- Barra de progreso -->
+              <progress value="40" max="100"></progress>
             </div>
-            <progress value="40" max="100"></progress>
           </div>
+
+          <!-- Descripción de la habilidad -->
           <div class="skill-text">
             Manejo totalmente de node.js, incluyendo express, middlewares y
             rutas.
           </div>
         </div>
+
+        <!-- fin Habilidades técnicas -->
+
+        <!-- Contenedor de botones de habilidades -->
         <div class="skills-list">
+          <!-- Lista de botones de las habilidades-->
+
+          <!-- Inicio de botones -->
+
+          <!-- Botón HTML -->
           <button id="html" class="skill-code">
             <img src="src/icons/skillscode/html.svg" alt="" />
           </button>
+
+          <!-- Botón CSS -->
           <button id="css" class="skill-code">
             <img src="src/icons/skillscode/css.svg" alt="" />
           </button>
+
+          <!-- Botón JavaScript -->
           <button id="javascript" class="skill-code">
             <img
               style="border-radius: 0.25rem"
@@ -277,18 +523,33 @@
               alt=""
             />
           </button>
+
+          <!-- Botón React -->
           <button id="react" class="skill-code">
             <img src="src/icons/skillscode/react.svg" alt="" />
           </button>
+
+          <!-- Botón Node.js -->
           <button id="nodejs" class="skill-code">
             <img src="src/icons/skillscode/nodejs.svg" alt="" />
           </button>
+
+          <!-- Fin de botones -->
         </div>
+
+        <!-- linea decorativa -->
         <hr />
+
+        <!-- Habilidades blandas -->
         <div class="soft-skills">
-          <h2>Soft Skills</h2>
+          <!-- Titulo de la seccion (Habilidades blandas) -->
+          <h2>Habilidades blandas</h2>
+
+          <!-- Lista de habilidades blandas -->
           <div class="soft-skills-list">
+            <!-- Habilidades -->
             <p>
+              <!-- Habilidades -->
               <span style="border: 1px solid rgb(18, 88, 83)"
                 >#Resolución de problemas</span
               >
@@ -314,49 +575,109 @@
 
       <!-- Projects Section -->
       <div id="projects" class="section-projects">
+        <!-- Titulo de la seccion (Proyectos) -->
         <h2>Proyectos</h2>
+
+        <!-- linea decorativa -->
         <hr class="line-decoration" />
+
+        <!-- Descripción de la sección de proyectos -->
         <p>Aquí puedes ver algunos de mis proyectos más destacados.</p>
+
+        <!-- Contenedor de tarjetas de proyectos -->
         <div class="projects-cards-container">
-          <a href="https://legaliaweb.vercel.app/" class="project">
+          <!-- Tarjetas de proyectos -->
+
+          <!-- inicio tarjetas de proyectos -->
+
+          <!-- Tarjeta proyecto 1 (Legalia)-->
+          <a
+            href=" https://legaliaweb.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            class="project"
+          >
+            <!-- Contenedor de la tarjeta -->
             <div class="projects-cards">
+              <!-- Imagen del proyecto -->
               <img src="src/icons/project1.png" alt="" />
             </div>
+
+            <!-- Información del proyecto -->
             <div class="projects-info">
+              <!-- Titulo e info del proyecto -->
               <h3>LandingPage | Legalia</h3>
               <p>LandingPage para despacho de abogados.</p>
             </div>
           </a>
-          <a href="https://sonrisas.vercel.app/" class="project">
+
+          <!-- Tarjeta proyecto 2 (Sonrisas)-->
+          <a
+            href="https://sonrisas.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            class="project"
+          >
+            <!-- Contenedor de la tarjeta -->
             <div class="projects-cards">
+              <!-- Imagen del proyecto -->
               <img src="src/proyectsImages/sonrisas.png" alt="" />
             </div>
+
+            <!-- Información del proyecto -->
             <div class="projects-info">
+              <!-- Titulo e info del proyecto -->
               <h3>LandingPage | Sonrisas</h3>
-              <p>LandingPage para clinica dental.</p>
+              <p>LandingPage para clínica dental.</p>
             </div>
           </a>
-          <a href="https://mytodolistuy.vercel.app/" class="project">
-            <div href="#" class="projects-cards">
+
+          <!-- Tarjeta proyecto 3 (My to do list)-->
+          <a
+            href="https://mytodolistuy.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            class="project"
+          >
+            <!-- Contenedor de la tarjeta -->
+            <div class="projects-cards">
+              <!-- Imagen del proyecto -->
               <img src="src/proyectsImages/mytodo.png" alt="" />
             </div>
+
+            <!-- Información del proyecto -->
             <div class="projects-info">
+              <!-- Titulo e info del proyecto -->
               <h3>App Web | My to do list</h3>
               <p>App web para gestionar tareas.</p>
             </div>
           </a>
+
+          <!-- Fin tarjetas de proyectos -->
         </div>
       </div>
 
       <!-- Contact Section -->
       <div id="contact" class="section-contact">
+        <!-- Titulo de la seccion (Contacto) -->
         <h2>Contacto</h2>
+
+        <!-- linea decorativa -->
         <hr class="line-decoration" />
+
+        <!-- Información de contacto y formulario -->
         <div class="contact-info">
+          <!-- Formulario de contacto -->
           <div class="contact-form">
+            <!-- Titulo del formulario -->
             <h4>Contacto</h4>
+            <!-- Formulario -->
             <form id="contact-form">
+              <!-- Grupo de inputs -->
+
+              <!-- Input Name -->
               <div class="input-group">
+                <!-- Label y campo de entrada para el nombre -->
                 <label for="name">Nombre:</label>
                 <input
                   name="name"
@@ -366,7 +687,10 @@
                   required
                 />
               </div>
+
+              <!-- Input Email -->
               <div class="input-group">
+                <!-- Label y campo de entrada para el email -->
                 <label for="email">Correo:</label>
                 <input
                   name="email"
@@ -376,7 +700,10 @@
                   required
                 />
               </div>
+
+              <!-- Input Subject -->
               <div class="input-group">
+                <!-- Label y campo de entrada para el asunto -->
                 <label for="subject">Asunto:</label>
                 <input
                   name="subject"
@@ -386,7 +713,10 @@
                   required
                 />
               </div>
+
+              <!-- Input Message -->
               <div class="input-group">
+                <!-- Label y campo de entrada para el mensaje -->
                 <label for="message">Mensaje:</label>
                 <textarea
                   name="message"
@@ -395,24 +725,39 @@
                   required
                 ></textarea>
               </div>
+
+              <!-- Botón de enviar -->
               <div class="send-group">
+                <!-- Botón para enviar el formulario -->
                 <button type="submit" value="send">Enviar</button>
+
+                <!-- Mensaje de confirmación -->
                 <div id="message-sent">Mensaje enviado</div>
               </div>
             </form>
           </div>
+
+          <!-- Redes sociales -->
           <div class="contact-social">
+            <!-- descripción de la sección de redes sociales -->
             <p>
               O si prefieres, también puedes contactarme a través de mis redes
               sociales:
             </p>
+
+            <!-- Contenedor de botones de redes sociales -->
             <div class="contact-buttons">
+              <!-- Botones de redes sociales -->
+
+              <!-- Instagram -->
               <a href="https://www.instagram.com/briannn.153/">
                 <img
                   src="src/icons/icons-socials/instagram.svg"
-                  alt="LinkedIn"
+                  alt="Instagram"
                 />
               </a>
+
+              <!-- GitHub -->
               <a href="https://github.com/briann39">
                 <img
                   style="filter: brightness(500%)"
@@ -420,33 +765,45 @@
                   alt="GitHub"
                 />
               </a>
+
+              <!-- Twitter -->
               <a href="https://twitter.com/">
                 <img src="src/icons/icons-socials/twitter.png" alt="Twitter" />
               </a>
+
+              <!-- Facebook -->
               <a href="https://www.facebook.com/BMAM123/">
                 <img
                   src="src/icons/icons-socials/facebook.png"
                   alt="Facebook"
                 />
               </a>
+
+              <!-- LinkedIn -->
               <a href="https://www.linkedin.com/in/brian-alvernas-395874374/">
                 <img
                   src="src/icons/icons-socials/linkedin.png"
                   alt="LinkedIn"
                 />
               </a>
+
+              <!-- WhatsApp -->
               <a href="https://wa.me/59899592441">
                 <img
                   src="src/icons/icons-socials/whatsapp.webp"
                   alt="WhatsApp"
                 />
               </a>
+
+              <!-- Telegram -->
               <a href="https://t.me/briann39">
                 <img
                   src="src/icons/icons-socials/telegram.png"
                   alt="Telegram"
                 />
               </a>
+
+              <!-- TikTok -->
               <a href="https://www.tiktok.com/@briann39">
                 <img src="src/icons/icons-socials/tiktok.png" alt="Tiktok" />
               </a>
@@ -454,53 +811,79 @@
           </div>
         </div>
       </div>
+
+      <!-- Fin de Secciónes -->
     </div>
+
+    <!-- Menu lateral -->
+
     <div class="navbar-lateral">
+      <!-- Lista de botones de navegación -->
+
+      <!-- Inicio de botones -->
+
+      <!-- Botón para ir a la sección de inicio -->
       <button
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-delay="500"
         id="btn-home"
         class="button button-active"
       >
         <i class="fa-solid fa-house"></i>
       </button>
+
+      <!-- Botón para ir a la sección de sobre mí -->
       <button
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-delay="600"
         id="btn-about-me"
         class="button"
       >
         <i class="fa-solid fa-address-card"></i>
       </button>
+
+      <!-- Botón para ir a la sección de habilidades -->
       <button
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-delay="700"
         id="btn-skills"
         class="button"
       >
         <i class="fas fa-tools"></i>
       </button>
+
+      <!-- Botón para ir a la sección de proyectos -->
       <button
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-delay="800"
         id="btn-projects"
         class="button"
       >
         <i class="fas fa-folder-open"></i>
       </button>
+
+      <!-- Botón para ir a la sección de contacto -->
       <button
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-delay="900"
         id="btn-contact"
         class="button"
       >
         <i class="fa-solid fa-diagram-project"></i>
       </button>
+
+      <!-- Fin de botones -->
     </div>
+
+    <!-- Scripts -->
+
+    <!-- EmailJS SDK -->
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
+
+    <!-- Inicialización de EmailJS -->
     <script type="text/javascript">
       (function () {
         // https://dashboard.emailjs.com/admin/account
@@ -509,10 +892,16 @@
         });
       })();
     </script>
+
+    <!-- AOS Library for animations -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Initialize AOS -->
     <script>
       AOS.init();
     </script>
+
+    <!-- Main JavaScript file -->
     <script src="script.js"></script>
   </body>
 </html>

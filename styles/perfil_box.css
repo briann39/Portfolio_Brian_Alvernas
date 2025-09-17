@@ -1,0 +1,218 @@
+/* =============== PERFIL BOX =============== */
+.perfil-box {
+  position: sticky;
+  top: 3rem;
+  background-color: var(--color-surface);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  width: fit-content;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  gap: 0.1rem;
+  line-height: 1.2;
+  border: solid 1px var(--color-border);
+  overflow: hidden;
+  height: 100%;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.perfil-img-box {
+  background-color: var(--color-tertiary);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  width: 10rem;
+  height: 10rem;
+  border: solid 1px var(--color-border);
+}
+
+.perfil-divider {
+  border: none;
+  width: 100%;
+  height: 1px;
+  margin: 0.25rem 0;
+}
+
+.perfil-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.perfil-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.perfil-box h2 {
+  margin: 0;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-text);
+  text-align: center;
+}
+
+.perfil-text p {
+  background-color: var(--color-bg);
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 5px;
+  color: var(--color-text-secondary);
+  font-size: 0.8em;
+  border: solid 1px var(--color-border);
+  text-align: center;
+}
+
+hr {
+  border: none;
+  width: 100%;
+  height: 1px;
+  background: var(--color-tertiary);
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  gap: 1rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+}
+
+.item-contact {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.item-contact i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25em;
+  width: 1.25em;
+  height: 1.25em;
+  color: var(--color-secondary);
+}
+
+.item-contact-info h3 {
+  margin: 0;
+  font-weight: 100;
+  font-size: 0.8rem;
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-text-secondary);
+}
+
+.item-contact p {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-text);
+  font-size: 0.9em;
+}
+
+.icon-box {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.icon-box::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--color-bg);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.social-media-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-media-buttons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media-buttons a:hover {
+  color: var(--color-secondary);
+}
+
+.social-media-buttons i {
+  font-size: 1.5em;
+  margin: 0;
+}
+.navbar-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: var(--color-tertiary);
+  width: fit-content;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.navbar-list li {
+  margin: 0;
+  padding: 0.5rem;
+  border: solid 1px var(--color-border);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-list li:hover {
+  background-color: var(--color-bg);
+  cursor: pointer;
+}
+
+.navbar-item-active {
+  background-color: var(--color-bg);
+  font-weight: 500;
+}
+
+.section-divider {
+  border: none;
+  width: 100%;
+  height: 3px;
+  background: var(--color-secondary);
+  border-radius: 50%;
+  margin: 0;
+}

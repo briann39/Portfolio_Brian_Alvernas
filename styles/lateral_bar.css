@@ -1,0 +1,60 @@
+
+/* =============== NAVBAR LATERAL =============== */
+.navbar-lateral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: calc(100vh - 6rem);
+  position: sticky;
+}
+
+.navbar-lateral .button {
+  background: var(--color-bg);
+  padding: 1rem;
+  border: none;
+  color: var(--color-text-secondary);
+  font-size: 1.5em;
+  cursor: pointer;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.705);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-lateral .button:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-bg);
+}
+
+.button-active {
+  background-color: var(--color-secondary) !important;
+  color: var(--color-bg) !important;
+}
+.navbar-lateral .button-secondary {
+  background: var(--color-text-secondary);
+  color: var(--color-bg);
+}
+
+.navbar-lateral .button-secondary:hover {
+  background: var(--color-tertiary);
+  color: var(--color-bg);
+}
+
+.section-box h1 {
+  margin: 0;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-text);
+  text-align: left;
+  width: 100%;
+}
+
+.section-box .line-decoration {
+  border: none;
+  width: 50px;
+  height: 5px;
+  margin: 1rem 0;
+  background-color: var(--color-secondary);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}

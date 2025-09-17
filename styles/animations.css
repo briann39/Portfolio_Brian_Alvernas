@@ -1,0 +1,33 @@
+/* =============== ANIMACIONES =============== */
+
+.fadeout {
+  animation: fadeout 0.5s ease forwards;
+}
+
+.fadein {
+  animation: fadein 0.5s ease forwards;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =============== FIN ANIMACIONES =============== */
